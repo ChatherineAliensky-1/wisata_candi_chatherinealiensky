@@ -39,11 +39,11 @@ class DetailScreen extends StatelessWidget {
                   child: IconButton(
                     icon: const Icon(Icons.arrow_back),
                     onPressed: () {
-                      Navigator.pop(context); // Menambahkan aksi kembali (opsional tapi disarankan)
+                      Navigator.pop(context); 
                     },
                   ),
                 ),
-              ), // <-- Kurang penutup ini sebelumnya
+              ), 
             ],
           ),
           // Detail Info
