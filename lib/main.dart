@@ -7,7 +7,7 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+  const MyApp({super.key}); // <-- Diperbaiki di sini
 
   @override
   Widget build(BuildContext context) {
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
         useMaterial3: true,
       ),
-      home: DetailScreen(candi: candiList[0],),
+      home: DetailScreen(candi: candiList[5]),
     );
   }
 }
