@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:wisatacandi/data/candi_data.dart';
 import 'package:wisatacandi/screens/detail_screen.dart';
+import 'package:wisatacandi/screens/profile_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +19,8 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
         useMaterial3: true,
       ),
-      home: DetailScreen(candi: candiList[5]),
+      // home: DetailScreen(candi: candiList[5]),
+      home: ProfileScreen(),
     );
   }
 }
